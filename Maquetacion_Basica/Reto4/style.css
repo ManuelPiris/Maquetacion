@@ -1,0 +1,27 @@
+
+*{
+    margin: 5px;
+    padding: 2px;
+    box-sizing: border-box;
+    background-color: rgb(112, 228, 243);
+}
+    
+header,footer{
+
+    color: black;
+    margin: 1px;
+    border-style: solid;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+div{
+    
+    height: 750px;
+    padding: 300px;
+    text-align:center;
+    font: oblique bold 150% cursive;
+}
+    
+    
