@@ -1,0 +1,277 @@
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Times', sans-serif;
+}
+
+.principal{
+
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.datos{
+
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    align-items:center;
+    background-color: rgb(19, 150, 226);
+    color:white;
+    width: 33%;
+}
+
+.datosfoto{
+
+   padding-top: 30px;
+   margin: 0 auto;
+}
+
+.datosfotomia{
+
+    border-radius: 50%;
+}
+
+.nombretexto{
+
+    font-family: 'Times', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+.datostitulotexto{
+
+    font-family: 'Times', sans-serif;
+    text-align: center;
+    font-size: 2em;
+}
+
+.datoscontacto{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.datoscontactoiconotexto{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.datoscontactoiconotexto{
+
+    font-size: 1.2em;
+} */
+
+
+.datostitulosobremi{
+
+    font-family: 'Times', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.datostexto{
+
+    margin: 30px 30px 0 30px;
+    text-align: center;
+}
+
+.datosidiomas{
+
+    margin: 30px 30px 0 30px;
+    text-align: center;
+}
+
+.datosidiomastitulo{
+
+    font-family: 'Times', sans-serif;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.datostextoidiomas{
+
+    font-size: 1.5em;
+    padding-bottom: 2px;
+    font-weight: 200;
+}
+
+
+.datostitulointeres{
+
+    font-family: 'Times', sans-serif;
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.datostextointerestexto{
+
+    font-size: 2em;
+    padding-bottom: 3px;
+    text-align: justify;
+    margin-bottom: 70px;
+}
+
+.contenido{
+
+    background-color: rgb(243, 234, 198);
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.experiencia{
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    width: 100%;
+}
+
+.experienciatitulo{
+
+    font-family: 'Times', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.experienciacontenido{
+
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.experienciacontenidotitulo{
+
+    width: 45%;
+}
+
+.experienciatexto{
+
+    font-family: 'Times', sans-serif;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.experienciafecha{
+
+    font-family: 'Times', sans-serif;
+    font-weight: 500;
+}
+
+.experienciaempresa{
+
+    font-family: 'Times', sans-serif;
+    font-weight: 500;
+}
+
+.experienciatextoadicional{
+
+    width: 50%;
+    font-weight: 400;
+}
+
+.formacion{
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    width: 100%;
+    margin-top: 30px;;
+}
+
+.formaciontitulo{
+
+    font-family: 'Times', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.formacioncontenido{
+
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.formacionfecha{
+
+    width: 10%;
+}
+
+.formacionfechatexto{
+
+    font-weight: 600;
+}
+
+.formacioncontenidotitulo{
+
+    width: 70%;
+}
+
+.formaciontitulo{
+
+    font-size: 1.1em;
+}
+
+.formacionsubtexto{
+
+    font-weight: 600;
+}
+
+.skillsTexto{
+
+    display: flex;
+    font-family: 'Times', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.container {
+  width: 100%; 
+  background-color: #ddd; 
+}
+
+.skills {
+
+  text-align: right; 
+  padding-top: 10px; 
+  padding-bottom: 10px;
+  color: white; 
+}
+
+.html {
+
+    width: 90%; 
+    background-color: green;
+} 
+
+.css {
+
+    width: 70%;
+    background-color: blue;
+}
+
+.js {
+    
+    width: 55%;
+    background-color: red;
+} 
+
