@@ -1,0 +1,49 @@
+
+*{
+    margin: 5px;
+    padding: 2px;
+    box-sizing: border-box;
+    background-color: rgb(112, 228, 243);
+}
+    
+.header,footer{
+
+    color: black;
+    margin: 1px;
+    border-style: solid;
+    border-radius: 15px;
+    text-align: center;
+}
+    
+.img{
+
+    width: 10%;
+}
+
+.column{
+
+    display: flex;
+    padding: 50px;
+}
+
+.fotos{
+
+      padding: 2px;
+      margin: 180px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+}
+
+.fotos img{
+
+    margin-top:50px;
+}
+
+.footer {
+
+    display: flex;
+    align-items: flex-end;
+
+  }
