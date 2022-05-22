@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+    <title>Viajes PirisWorld</title>
+</head>
+
+<body>
+    <main class="pagina">
+        <div class="cabecera">
+            <header class="cabecera__principal">
+                <h1 class="cabecera__principal--titulo">VIAJES PIRISWORLD</h1>
+                </header>
+                <nav class="cabecera__botones">
+                    <a class="=cabecera__botones--boton" href="pagina.html">Inicio</a>
+                    <a class="=cabecera__botones--boton" href="destino.html">Destinos</a>
+                    <a class="=cabecera__botones--boton" href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+        <section class="banner">
+            <div class="banner__superior">
+            <h2 class="banner__superior--texto">
+                VIAJEMOS POR EL MUNDO
+            </h2>
+            <div class="banner__subtitulo">
+                <h6 class="banner__subtitulo__texto">
+                    Formamos parte de tu viaje
+                </h6>
+            </div>
+            </div>
+        </section>
+
+        <section class="formulario">
+            <form class="formulario__form">
+            <input class="formulario__form--nombre" id="nombre" type="text" placeholder="Introduce tu Nombre completo">
+            <input class="formulario__form--origen" id="origen" type="text" placeholder="Origen">
+            <input class="formulario__form--destino" id="destino" type="text" placeholder="Destino">
+            <input class="formulario__form--persona" id="persona" type="number" placeholder="Números de personas">
+            <input class="formulario__form--fecha" id="fecha" type="date" placeholder="Fecha">
+
+            <div class="formulario__form--botones">
+            <input class="formulario__form--botones-info" type="button" value="Soliticar info" onclick="recogerDatos()">
+            <input class="formulario__form--botones-filtrar" type="button" value="Filtrar Solicitudes" onclick="filtrarDatos()">
+            </div>
+            </form>
+        </section>
+
+        <section class="filtrar">
+            <div class="filtrar__busqueda" id="busqueda">
+            </div>
+            <div class="filtrar__resultado" id="resultado">
+            </div>
+        </section>
+
+        <footer class="footer">
+            <h4 class="footer__texto">
+               Telf:600000000 / email:info@pirisworld.com / PIRISWORLD
+            </h4>
+        </footer>
+    </main>
+</body>
+</html>
