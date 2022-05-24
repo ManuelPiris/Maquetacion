@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.principal{
+
+    width: 100vw;
+    padding: 100px 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bloque1{
+   
+    width: 100%;
+    padding: 10px 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.telefono{
+
+    background-color: #FAFAFA;
+}
+
+.telefono__imagen{
+
+    position: relative;
+}
+
+.login{
+
+    display: flex;
+    flex-direction: column; 
+    align-content: center;
+}
+.bloque{
+
+    border: 1px solid rgb(192, 192, 192);
+    width: 300px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.login__titulo{
+
+    width: 300px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2em;
+}
+
+.login__inputs{
+
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 40px 0 40px;
+}
+.contenedor__aux{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5px;
+    border: 1px solid rgb(192, 192, 192);
+}
+
+.login__inputs--text{
+
+    width: 100%;
+    background-color: #E8F0FE;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid rgb(192, 192, 192);
+}
+
+.login__inputs--pass{
+
+    width: 70%;
+    background-color: #E8F0FE;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.login__inputs--boton{
+
+    width: 30%;
+    background-color: white;
+    border-radius: 5px;
+    border:none;
+}
+
+.login__inputs--iniciarSesion{
+
+    background-color: #0095F6;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+    font-size: 0.7em;
+    height: 30px;
+}
+
+::placeholder{
+
+    font-size: 0.7em;
+    color: grey;
+}
+
+.login__barra{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.login__barra--linea{
+
+    width: 40%;
+    height: 1px;
+    background-color: rgb(214, 210, 210);
+}
+
+.login__barra--texto{
+
+    font-size: 0.7em;
+    font-weight: 200;
+    color:white;
+}
+
+.fa-facebook-square{
+
+    color: #0095F6;
+}
+
+.login__facebook, .login__olvidarContrasenia{
+
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.7em;
+}
+
+.login__facebook__texto, .login__olvidarContrasenia__texto{
+
+    color:black;
+}
+
+.login__olvidarContrasenia{
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.login__nocuenta{
+
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+
+.login__nocuenta--texto{
+
+    font-size: 0.7em;
+}
+
+.login__nocuenta--boton{
+
+    font-size: 0.7em;
+    color:#0095F6;
+    font-weight: 600;
+}
+
+.login__app{
+
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login__app--texto-text{
+
+    font-size: 1em;
+    font-weight: 200;
+}
+
+.login__app--enlaces{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:10px;
+    margin-top: 20px;
+}
+
+.login__app--enlaces-imagen{
+
+    width: 150px;
+}
+
+.login__app--enlaces-imagen-img{
+
+    max-width: 150px;
+}
+
+.footer{
+
+    margin-top:800px;
+    margin-right: 50px;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+@media screen and (max-width:640px) {
+
+    .telefono{
+        display: none;
+    }
+
+    .footer{
+        width: auto;
+    }
+}
+
+
