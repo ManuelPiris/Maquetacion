@@ -150,6 +150,7 @@
 	height: 50px;
 	bottom: 0;
 	font-style: italic;
+	z-index: 1;
 }
 
 
