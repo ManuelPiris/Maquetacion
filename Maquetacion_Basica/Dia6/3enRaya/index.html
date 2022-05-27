@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+    <title>Tres en raya para Dos jugadores</title>
+</head>
+<body>
+    <main class="principal">
+        <div class="botonera">
+            <div class="boton__nueva">
+                <input class="boton__nuevo--juego" type="button" onclick="nuevoJuego()" value="Nuevo Juego">
+            </div>
+            <div class="boton__reset">
+                <input class="boton__reset--juego" type="button" onclick="reiniciar()" value="Reiniciar">
+            </div>
+        </div>
+        <div class="contador__primero">
+            <h3 class="contador__primero--jugador" id="jugador1">Victorias </h3>
+        </div>
+        <div class="contador__partidas">
+            <h3 class="contador__partidas--jugador" id="contador">Partidas jugadas </h3>
+        </div>
+        <div class="contador__segundo">
+            <h3 class="contador__segundo--jugador" id="jugador2">Victorias </h3>
+        </div>
+        <div class="cuadridula">
+            <div class="zonaA"></div>
+            <div class="zonaJuego">
+                <div class="zona11" id="0"></div>
+                <div class="zona12" id="1"></div>
+                <div class="zona13" id="2"></div>
+                <div class="zona21" id="3"></div>
+                <div class="zona22" id="4"></div>
+                <div class="zona23" id="5"></div>
+                <div class="zona31" id="6"></div>
+                <div class="zona32" id="7"></div>
+                <div class="zona33" id="8"></div>
+            </div>
+            <div class="zonaB"></div>
+        </div>
+        <div class="imagen">
+            <figure>
+                <img class="photo1" src="calamar.png" alt="calamar">
+            </figure>
+        </div>     
+     </main>
+    </body>
+</html>
