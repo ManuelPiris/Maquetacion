@@ -1,0 +1,24 @@
+.grid{
+
+    font-size: x-large;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: [x0]1fr [x1]0.5fr [x2]1.5fr [x3]1.5fr [x4]0.5fr [x5]1fr;
+    grid-template-rows: 70%;
+}
+
+.a{
+
+    background-color: rgb(169, 248, 50);
+    text-align: center;
+    color: black;
+
+}
+
+.b{
+
+    background-color: black;
+    text-align: center;
+    color: white;
+
+}

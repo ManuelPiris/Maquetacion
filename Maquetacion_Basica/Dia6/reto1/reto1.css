@@ -1,0 +1,46 @@
+.grid{
+
+    height: 100vh;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: 50%;
+}
+
+.a{
+
+    background-color: rgb(182, 233, 107);
+    color: white;
+
+}
+
+.b{
+
+    background-color: rgb(243, 186, 81);
+    color: white;
+
+}
+
+.c{
+
+    background-color: rgb(235, 91, 38);
+    color: white;
+}
+
+.d{
+
+    background-color: red;
+    color: white;
+}
+
+.e{
+
+    background-color: blue;
+    color: white;
+}
+
+.f{
+
+    background-color: yellow;
+    color: white;
+}

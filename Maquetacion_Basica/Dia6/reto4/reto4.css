@@ -1,0 +1,118 @@
+
+.grid{
+
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    'header header imagen'
+    'lateral1 lateral2 lateral2'
+    'lateral1 lateral2 lateral2'
+    'lateral1 lateral2 lateral2'
+    'footer footer footer ';
+}
+
+.header1{
+
+
+    grid-area: header;
+    background-color: rgb(112, 30, 30);
+    color: white;
+    text-align: center; 
+
+}
+
+.imagen{
+ 
+
+    grid-area: imagen;
+    background-color: rgb(73, 3, 3);
+    color: white;
+    text-align: center;
+
+}
+
+.lateral1{
+
+  
+    background-color: rgb(255, 136, 0);
+    grid-area: lateral1;
+    display: grid;
+    grid-template-areas: 
+    'lateral1-1'
+    'lateral1-0' 
+    'lateral1-2';
+
+}
+
+.lateral1-1{
+
+ 
+    grid-area: lateral1-1;
+    background-color: white;
+    text-align: center;
+    color:orange;
+    margin: 6px;
+
+}
+
+.lateral1-0{ 
+   
+grid-area: lateral1-0;
+
+
+}
+
+.lateral1-2{
+
+   
+    grid-area: lateral1-2;
+    text-align: center;
+    background-color: white;
+    color:orange;
+    margin: 6px;
+
+}
+
+.lateral2{
+
+    background-color: rgb(235, 151, 82);
+    grid-area: lateral2;
+    display: grid;
+    grid-template-areas: 
+    'texto1' 
+    'texto2';
+
+}
+
+.texto1{
+
+    grid-area: texto1;
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    margin: 6px;
+
+}
+
+.texto2{
+
+    grid-area: texto2;
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    margin: 6px;
+
+}
+
+
+
+.footer{
+
+    /* grid-column: x0 / x1;
+    grid-row: y4; */
+    grid-area: footer;
+    background-color: rgb(73, 3, 3);
+    color:white;
+    text-align: center;
+
+}
