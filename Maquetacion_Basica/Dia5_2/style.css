@@ -67,11 +67,13 @@
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 100px;
-    gap:50px
+    width: 80%;
+    gap:50px;
 }
 
 .descripcion__logo--imagen{
-    width: 200px;
+    width: 80%;
+    border-radius: 40%;
 }
 
 .descripcion__logo--imagen-img{
